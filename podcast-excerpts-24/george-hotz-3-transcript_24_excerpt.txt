@@ -1,0 +1,1 @@
+pretty generic. If you can’t write an in Nvidia stack, there’s no way you can write a stack for your chip. My approach with Tinygrad is first write a performant NVIDIA stack. We’re targeting AMD. Lex Fridman (00:53:13) You did say FU to Nvidia a little bit with Love. George

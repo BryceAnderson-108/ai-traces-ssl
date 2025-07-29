@@ -1,0 +1,1 @@
+it did exactly what you wanted, but you asked it to do the wrong thing, which is a completely different failure mode. But those are both concerns to you. So that's more than a brave new world. Yeah. If you can solve the problem of making something want exactly what
