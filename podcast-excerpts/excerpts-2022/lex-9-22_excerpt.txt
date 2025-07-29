@@ -1,0 +1,1 @@
+mean to say that Python is bad for libraries. What I meant to say is, there are libraries that Python is really good at, that you can write in Python. But there are other things like if you want to build a machine learning framework, you're not going to build

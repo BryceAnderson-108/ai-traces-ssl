@@ -1,0 +1,1 @@
+Oracle. They'll just be called Oracle's or decentralized services instead of APIs. You're basically composing the same type of architecture except it's hyper-reliable. At the moment it's a little bit less efficient because there's an early stage to our industry. But it provides this extreme level of reliability and transparency,
