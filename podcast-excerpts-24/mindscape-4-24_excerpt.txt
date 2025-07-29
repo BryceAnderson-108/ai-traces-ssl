@@ -1,0 +1,1 @@
+you spot one? What's the right metric? I think generally what people are thinking about is you have extra layers of architecture or hierarchy where you've packaged together more lower level things into some higher level thing and where that higher level thing in an evolutionary sense operates as a
