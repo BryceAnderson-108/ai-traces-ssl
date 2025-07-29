@@ -1,0 +1,140 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# First dataset
+data1 = {
+    "term": [
+        "groundbreaking", "crucial", "realm", "potential",
+        "emphasize", "potential", "pivotal", "comprehend",
+        "showcase", "significant", "advancement", "align",
+        "delve", "intricate", "notable", "garner",
+        "strategically", "meticulous", "boast", "surpass"
+    ],
+    "change_percent": [
+        -40.94, -24.56, -17.63, -12.15, -4.15, -2.95, 0.45, 3.36, 6.49, 17.35,
+        30.27, 36.59, 46.82, 47.21, 53.13, 53.76, 87.93, 125.52, 140.14, 140.79
+    ]
+}
+df1 = pd.DataFrame(data1)
+df1_sorted = df1.sort_values(by="change_percent")
+colors1 = ['lightcoral' if val < 0 else 'lightblue' for val in df1_sorted["change_percent"]]
+
+# Second dataset
+data2 = """
+convolution_NOUN -79.37
+sophistication_NOUN -53.98
+domain_NOUN -52.32
+outstanding_ADJ -36.02
+probability_NOUN -34.75
+feasible_ADJ -34.02
+examine_VERB -32
+distinguished_ADJ -31.96
+amass_VERB -30.76
+collect_VERB -30.71
+excellence_NOUN -29.53
+synchronize_VERB -26.46
+investigate_VERB -25.01
+crucial_ADJ -24.56
+purposefully_ADV -22.62
+display_NOUN -20.18
+likelihood_NOUN -19.72
+aggregate_VERB -19.15
+essential_ADJ -19.12
+forum_NOUN -17.57
+feature_NOUN -16.91
+valuable_ADJ -16.47
+field_NOUN -16.01
+compile_VERB -14.88
+progress_NOUN -14.74
+highlight_NOUN -14.2
+key_ADJ -12.89
+consciously_ADV -11.07
+perceive_VERB -10.06
+display_VERB -9.95
+sphere_NOUN -9.13
+theoretical_ADJ -8.98
+probe_VERB -8.72
+exhibit_VERB -7.5
+discipline_NOUN -6.79
+appreciate_VERB -5.42
+precise_ADJ -4.97
+demonstration_NOUN -4.19
+explore_VERB -3.31
+presentation_NOUN -3.1
+understand_VERB -2.36
+distinction_NOUN -1.94
+research_VERB -1.26
+possible_ADJ -1.05
+development_NOUN -0.81
+inventive_ADJ 0.23
+pivotal_ADJ 0.45
+renowned_ADJ 1.8
+complication_NOUN 2.78
+merit_NOUN 4.09
+innovative_ADJ 4.64
+possibility_NOUN 4.69
+convoluted_ADJ 5.71
+showcase_VERB 6.49
+vigilant_ADJ 6.49
+complex_ADJ 7.57
+improvement_NOUN 9.2
+highlight_VERB 9.54
+original_ADJ 9.6
+vital_ADJ 10.55
+critical_ADJ 11.46
+remarkable_ADJ 14.35
+deliberately_ADV 14.85
+elaborate_ADJ 15.18
+coordinate_VERB 15.32
+sophisticated_ADJ 15.68
+integrate_VERB 16.9
+stress_VERB 16.98
+prospect_NOUN 17.14
+enhancement_NOUN 20.81
+visionary_ADJ 21.6
+complexity_NOUN 27.71
+grasp_VERB 27.9
+novel_ADJ 38.22
+reinforce_VERB 38.37
+thorough_ADJ 43.19
+assemble_VERB 46.48
+achievable_ADJ 50.35
+notable_ADJ 53.13
+probable_ADJ 57.86
+multifaceted_ADJ 67.05
+capability_NOUN 81.71
+admirable_ADJ 87.93
+exhibit_NOUN 93.46
+territory_NOUN 93.88
+eminent_ADJ 114.78
+irreplaceable_ADJ 275.86
+"""
+lines = data2.strip().split("\n")
+terms, values = zip(*[line.split("\t") if "\t" in line else line.split() for line in lines])
+df2 = pd.DataFrame({"term": terms, "change_percent": list(map(float, values))})
+df2_sorted = df2.sort_values(by="change_percent")
+colors2 = ['lightcoral' if val < 0 else 'lightblue' for val in df2_sorted["change_percent"]]
+
+# Create side-by-side subplots
+fig, axs = plt.subplots(1, 2, figsize=(16, 6), sharey=True)
+
+# First subplot
+axs[0].bar(df1_sorted["term"], df1_sorted["change_percent"], color=colors1)
+axs[0].axhline(0, color='black', linewidth=0.8)
+axs[0].set_ylabel("Change (%)")
+axs[0].set_title("AI-overused words")
+axs[0].set_xticks(range(len(df1_sorted)))
+axs[0].set_xticklabels(df1_sorted["term"], rotation=67.5, ha='right')
+axs[0].set_ylim(-100, 150)
+
+# Second subplot
+axs[1].bar(range(len(df2_sorted)), df2_sorted["change_percent"], color=colors2)
+axs[1].axhline(0, color='black', linewidth=0.8)
+axs[1].set_title("Baseline words")
+axs[1].set_xticks(range(len(df2_sorted)))
+axs[1].set_xticklabels([""] * len(df2_sorted))
+axs[1].set_xlabel("Words as per Table REF", fontsize=14)
+axs[1].set_ylim(-100, 150)
+
+plt.tight_layout()
+plt.show()
