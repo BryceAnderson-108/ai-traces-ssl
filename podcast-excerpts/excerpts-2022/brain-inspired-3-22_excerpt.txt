@@ -1,0 +1,1 @@
+compute can in principle lead to AGI? Then I think you'd have to answer yes because if you are allowed to train different sub parts of the network in different ways and you craft a very particular data set Then almost no matter what the end answer looks like you

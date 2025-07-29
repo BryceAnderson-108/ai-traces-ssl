@@ -1,0 +1,1 @@
+neural network models trained with back propagation. Basically looking at how internals of these networks might match some neuro physiological data that I had or some behavioral data. Okay the things that everybody including me is all excited about these days but like. But that was before the quote unquote
