@@ -1,0 +1,23 @@
+AI Focal Words (Term : Change Percentage):
+
+
+groundbreaking	-40.94%
+crucial	        -24.56%
+realm	          -17.63%
+potential	      -12.15%
+emphasize	      -4.15%
+potential	      -2.95%
+pivotal	         0.45%
+comprehend	     3.36%
+showcase	       6.49%
+significant	     17.35%
+advancement	     30.27%
+align	           36.59%
+delve	           46.82%
+intricate	       47.21%
+notable	         53.13%
+garner	         53.76%
+strategically	   87.93%
+meticulous	     125.52%
+boast	           140.14%
+surpass	         140.79%

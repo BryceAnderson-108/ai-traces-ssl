@@ -1,0 +1,22 @@
+List of target words occuring in our dataset:
+
+groundbreaking
+crucial
+realm
+potential
+emphasize
+potential
+pivotal
+comprehend
+showcase
+significant
+advancement
+align
+delve
+intricate
+notable
+garner
+strategically
+meticulous
+boast
+surpass

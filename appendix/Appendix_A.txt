@@ -1,0 +1,32 @@
+# Computing Resources
+
+This file details the computing environment used to run the scripts and analyses in this repository.
+
+## System Specifications
+
+- **Machine**: 2024 Thelio Custom Machine
+- **Operating System**: Ubuntu 24.04.1 LTS
+- **CPU**: Core i7-14700K
+- **GPU**: GeForce RTX 3090
+- **RAM**: 32 GB
+
+## Software Environment
+
+- **Python Version**: X
+- **Key Libraries**:
+  - openai-whisper == X
+  - spacy == [version]
+  - pandas == [version]
+  - numpy == [version]
+  - scipy == [version]
+  - MatPlot Lib
+
+## Runtime Notes
+
+- **Total transcription time**: 80 hours
+- **spaCy tagging time**: 2 hours
+- **Average analysis runtime**: 4 min per 1 hour of transcription
+
+## Additional Notes
+
+This environment uses a 2024 Thelio Custom Machine equipped with a Core i7-14700K and a GeForce RTX 3090.

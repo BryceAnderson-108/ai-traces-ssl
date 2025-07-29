@@ -1,0 +1,20 @@
+List of Podcasts used for the analysis:
+
+Podcast Title	Number of Episodes Pre22	Number of Episodes Post22	Average Episode Length
+BBC Curious Cases	22	22	
+Big Picture Science	15	15	
+Big Technology Podcast	40	40	
+Brain Inspired	20	20	
+Conversations with Tyler	36	36	
+CoreC	14	14	
+EconTalk	64	64	
+The Ezra Klein Show	60	60	
+Lex Fridman	93	93	
+Machine Learning Street Talk	30	30	
+Ologies with Alie Ward	7	7	
+People Behind the Science	16	16	
+Radiolab	72	72	
+Sean Carrollâ€™s Mindscape	35	35	
+STEM Talk	30	30	
+Talk Nerdy with Cara Santa Maria	31	31	
+Very Bad Wizards	34	34	
