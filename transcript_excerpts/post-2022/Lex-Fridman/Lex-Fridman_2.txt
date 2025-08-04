@@ -1,0 +1,1 @@
+aka the payload quantum bits in which you actually want to run your quantum mechanical program. It’s very difficult because in order to scale up your quantum computer, you need each component to be of sufficient quality for it to be worth it. Because if you try to do this
