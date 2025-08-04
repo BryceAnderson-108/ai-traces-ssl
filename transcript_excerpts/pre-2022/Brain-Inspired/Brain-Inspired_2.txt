@@ -1,0 +1,1 @@
+any change to the environment or input data whether it's a change of data distribution it's a change of task or both so as to transfer okay so transfer learning again I have the slides in the tutorial as well as in the class slides for the continual learning class
