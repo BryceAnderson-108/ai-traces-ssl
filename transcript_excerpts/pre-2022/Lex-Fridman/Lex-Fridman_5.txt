@@ -1,0 +1,1 @@
+composite structures. So every object is composed of other objects, which are composed of other objects. And they become members of other objects. So this room is chairs and a table and a room and a walls and so on. Now we can just arrange them in these things in

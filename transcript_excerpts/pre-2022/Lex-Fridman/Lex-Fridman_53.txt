@@ -1,0 +1,1 @@
+correct me if I'm wrong here, but it seems to be estimating the distance matrix, which is like the distance between the different parts. Yeah. So we call the contact map. Contact map. Right. So once you have the contact map, the reconstruction is becoming more straightforward. Yeah. Right. But
