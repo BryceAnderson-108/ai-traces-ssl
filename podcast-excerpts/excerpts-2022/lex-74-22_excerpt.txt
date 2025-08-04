@@ -1,1 +1,0 @@
-the operations are the subset of mathematical possibilities. So auto, you know, AI accelerators have a claim performance benefit over GPUs because in the narrow math space, you're nailing the algorithm. Now, you still try to make it programmable, but the AI field is changing really fast. So there's a,

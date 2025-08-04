@@ -1,1 +1,0 @@
-in general, what you mentioned that the central question for scene understanding is the interplay of bottom up and top down information. Maybe this is a good time to elaborate on that. Maybe define what is, what is bottom up, what is top down in the concept of compression. Right.

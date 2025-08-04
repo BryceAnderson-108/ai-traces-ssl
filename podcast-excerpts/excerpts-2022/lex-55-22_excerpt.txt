@@ -1,1 +1,0 @@
-the charting happens on some fixed number. Like the split is on some fixed number. I think it's 64 is the currently sort of proposed number. So how does that help scaling? Is it just the fixed constant scaling by 64? And is that a way to achieve those crazy,

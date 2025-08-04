@@ -1,1 +1,0 @@
-Python doesn't work for large code bases and why you want something like go. Interesting. So why why doesn't Python work for so even most, uh, speaking for myself at least, like we do a lot of stuff, basically demo level work with autonomous vehicles. And most of the work
