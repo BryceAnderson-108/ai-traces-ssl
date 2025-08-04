@@ -1,1 +1,0 @@
-chances that we’ll create the most complex software ever on the first try with zero bugs and it’ll continue to have zero bugs for a hundred years or more. Lex Fridman (00:03:38) So there is an incremental improvement of systems leading up to AGI. To you, it doesn’t matter if

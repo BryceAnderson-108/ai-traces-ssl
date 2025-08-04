@@ -1,1 +1,0 @@
-this Schrodinger equation is linear. If you have one quantum state evolving over time, and you have another quantum state evolving over time, they both solve the Schrodinger equation individually, then the sum of those two quantum states also solves the Schrodinger equation. This is a wonderful feature that we

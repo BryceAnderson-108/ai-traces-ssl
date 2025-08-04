@@ -1,1 +1,0 @@
-know, foundation models in AI, where you want to have, you know, a base model from which you can, you know, generalize to downstream tasks and, application specific domains or to answer particular questions. And so digital twins, you know, kind of parsing the definition that Grace just gave, it

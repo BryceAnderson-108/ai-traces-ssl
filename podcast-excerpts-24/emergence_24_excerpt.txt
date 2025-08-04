@@ -1,1 +1,0 @@
-but when they are near or at the same position in space, okay? That's what it means for interactions to be local. In quantum field theory, interactions are local. The field at any one point is affected by values of the field only right there at that point or at

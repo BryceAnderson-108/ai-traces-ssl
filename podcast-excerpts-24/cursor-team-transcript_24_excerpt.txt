@@ -1,1 +1,0 @@
-still get linter errors for, and you can code in. And then when you try to maybe run code, it’s just like there’s a small warning that there’s a lock, and then you kind of will take back the lock from the language server if you’re trying to do things

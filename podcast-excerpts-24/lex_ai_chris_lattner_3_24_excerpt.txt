@@ -1,1 +1,0 @@
-C, now not only do you have to package the C code, you have to build the C code. C doesn't have a package manager, right? C doesn't have a dependency versioning management system, right? And so I'm not experienced in the state of the art and all the different

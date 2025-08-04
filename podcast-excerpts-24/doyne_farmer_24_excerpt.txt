@@ -1,1 +1,0 @@
-actual society, when a model is a few hundred million, surely a million is a pretty good sampling, right? But you sort of hinted at the idea that therefore you get results that I couldn't derive analytically, that I couldn't figure out without doing the model. That would make me
